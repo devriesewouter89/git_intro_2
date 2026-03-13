@@ -1,13 +1,13 @@
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
-  Serial.begin(34200);
+  Serial.begin(9600);
 }
 
 void loop() {
-  for (int j = 0; j < 16; j++) {
-    digitalWrite(LED_BUILTIN, HIGH);
-    delay(5000);
+  for (int i = 10; i < 26; i++) {
     digitalWrite(LED_BUILTIN, LOW);
+    delay(500);
+    digitalWrite(LED_BUILTIN, HIGH);
     delay(500);
   }
   Serial.println("Hello World");
