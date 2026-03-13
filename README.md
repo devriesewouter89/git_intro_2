@@ -2,3 +2,5 @@
 
 ## Team genoten
 
+- ik
+- mezelf
