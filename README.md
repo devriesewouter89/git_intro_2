@@ -1,6 +1,9 @@
 # git_intro_2
 
-## Team genoten
+## Team members
+
+- me
+- myself
 
 - ik
 - mezelf
